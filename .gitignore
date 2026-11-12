@@ -1,0 +1,5 @@
+.tools/
+qa/
+node_modules/
+*.tar.gz
+dist/assets/florist-original.mp4

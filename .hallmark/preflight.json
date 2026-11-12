@@ -1,0 +1,13 @@
+{
+  "scanned": "2026-11-12",
+  "findings": {
+    "source": "README.md:1; flowers-time.clients.site inspected in browser",
+    "fonts": "No existing product font system; proposed Cormorant Garamond and Manrope",
+    "palette": "Proposed cream and green direction from prior plan, no official brand palette claimed",
+    "framework": "Buildless HTML/CSS/JavaScript",
+    "material": "Verified Flowers Time address and VK; stock video selected at user's request",
+    "absent": "Original logo, own florist footage, confirmed prices and delivery conditions"
+  },
+  "preserve": ["Flowers Time name", "Lukhovitsy address", "VK destination"],
+  "introduce": ["Responsive video hero", "Typography", "Playback control", "Static fallback"]
+}

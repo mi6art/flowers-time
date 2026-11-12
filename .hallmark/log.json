@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2026-11-12",
+    "shape": "floral atelier",
+    "theme": "shop-sign palette from user reference",
+    "axes": "light/roman-serif/chromatic-turquoise",
+    "hero": "Poster",
+    "palette": "graphite, neutral white, turquoise",
+    "preserve": ["layout", "Cormorant Garamond and Manrope", "photos", "video", "scroll reveal", "contacts"],
+    "source": "references/storefront-reference.png, supplied by user",
+    "validation": "render 0 FAIL; static 0 FAIL / 0 WARN, two known F4 false positives dismissed",
+    "review": "in-thread, new palette matches the visible shop sign",
+    "prompt": "Adapt the site's colours and style to the supplied photo of the shop"
+  },
+  {
+    "date": "2026-11-12",
+    "shape": "floral atelier",
+    "theme": "agreed Flowers Time direction",
+    "axes": "light/roman-serif/chromatic-green",
+    "hero": "Poster",
+    "nav": "sticky masthead and native mobile menu",
+    "footer": "contact close",
+    "imagery": "stock hero film; three real catalogue photos and workshop photo from the business page",
+    "sections": ["hero", "bouquets", "workshop", "delivery", "reviews", "contacts", "footer"],
+    "signature": "florist film followed by the shop's own bouquets",
+    "motion": "one reveal-once pattern, native smooth anchors, reduced-motion fallback",
+    "review": "in-thread, ship after fixing focus contrast, closed mobile menu bounds and hidden br spacing",
+    "validation": "full-page static/render: 0 FAIL, 0 REFLEX, 0 WARN; F4 false positive dismissed",
+    "prompt": "Continue in the same style, add bouquets, workshop, delivery, reviews, contacts and a scroll effect"
+  },
+  {
+    "date": "2026-11-12",
+    "shape": "one-screen film",
+    "theme": "agreed Flowers Time direction",
+    "axes": "light/roman-serif/chromatic-green",
+    "hero": "Poster",
+    "nav": "masthead with existing destinations",
+    "footer": "contact line",
+    "imagery": "stock video Anna Shvets Pexels 5756290, natural colour",
+    "photos": [],
+    "sections": ["hero"],
+    "signature": "A florist assembling a bouquet in motion",
+    "waived": ["77: user requests first screen only", "66: credit identifies stock footage"],
+    "prompt": "First screen for Flowers Time using public materials and stock video",
+    "review": "in-thread, ship after mobile typography adjustment",
+    "validation": "hero lint and render: 0 FAIL, 0 REFLEX, 0 WARN"
+  }
+]
